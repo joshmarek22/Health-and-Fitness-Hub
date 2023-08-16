@@ -54,25 +54,44 @@ section#workouts {
   margin-bottom: 1.5rem; /*distance between each card*/
 }
 
-.workout h3 {
-  font-size: 1.5rem;
+#workouts p {
+  font-size: 1rem;
+}
+
+/* Styling the fullbody training sub-sections */
+.fullBody h5 {
+  font-size: 1.25rem;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
 
-.workout p {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
-
-.workout ul {
+.fullBody ul {
   list-style: disc;
   padding-left: 1.5rem;
   font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-.workout li {
+.fullBody li {
+  margin-bottom: 0.25rem;
+}
+
+/* Styling the cardio training sub-sections */
+.cardio h5 {
+  font-size: 1.25rem;
+  margin-top: 3rem;
   margin-bottom: 0.5rem;
+}
+
+.cardio ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cardio li {
+  margin-bottom: 0.25rem;
 }
 
 /* Styling the strength training sub-sections */
