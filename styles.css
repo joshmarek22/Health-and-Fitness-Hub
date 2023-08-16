@@ -1,0 +1,119 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style main content sections */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Style the workout, recipe and equipment cards */
+.workout, .recipe, .equipment {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.workout h3, .recipe h3, .equipment h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.workout p, .recipe p, .equipment p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.full-body a, .cardio-blast a, .strength-training a, .bulking-meals a, .healthy-meals a, .strength-equipment a, .rehabilitation-equpiment a {
+  color: #000000; /* Change link color to black */
+}
+/* Style the footer */
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.socials ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.socials li {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.socials a {
+  text-decoration: none;
+}
+
+.socials li:hover{
+  transform: scale(1.05);
+}
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav li {
+      margin: 0.5rem 0;
+  }
+}

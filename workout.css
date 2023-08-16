@@ -1,0 +1,143 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+section#workouts {
+  margin-bottom: 2rem;
+}
+
+/* Styles workout cards */
+.fullBody, .cardio, .strength {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem; /*distance between each card*/
+}
+
+.workout h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.workout p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.workout ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.workout li {
+  margin-bottom: 0.5rem;
+}
+
+/* Styling the strength training sub-sections */
+.strength h5 {
+  font-size: 1.25rem;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.strength ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.strength li {
+  margin-bottom: 0.25rem;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .workout {
+    padding: 1rem;
+  }
+}
+
+/* Style the footer */
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.socials ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.socials li {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socials li:hover{
+  transform: scale(1.05);
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav li {
+      margin: 0.5rem 0;
+  }
+}
